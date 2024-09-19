@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>apiTenis</name>
+    </assembly>
+    <members>
+        <member name="T:apiTenis.Controllers.TorneoController">
+            <summary>
+            Controlador para gestionar los torneos de tenis.
+            </summary>
+        </member>
+        <member name="M:apiTenis.Controllers.TorneoController.Get">
+            <summary>
+            Obtiene la lista de todos los torneos disponibles.
+            </summary>
+            <returns>Una lista de torneos.</returns>
+        </member>
+        <member name="M:apiTenis.Controllers.TorneoController.GetFiltro(apiTenis.Models.TorneoFiltroDTO)">
+            <summary>
+            Obtiene una lista de torneos filtrados por los criterios especificados.
+            </summary>
+            <param name="dto">El filtro que se aplicará para obtener los torneos.</param>
+            <returns>Una lista de torneos filtrados.</returns>
+        </member>
+        <member name="M:apiTenis.Controllers.TorneoController.Create(apiTenis.Models.TorneoCrearDTO)">
+            <summary>
+            Crea un nuevo torneo con simulación de partidos.
+            </summary>
+            <param name="dto">Los datos necesarios para crear un torneo.</param>
+            <returns>El resultado de la creación del torneo.</returns>
+        </member>
+        <member name="T:apiTenis.Migrations.First">
+            <inheritdoc />
+        </member>
+        <member name="M:apiTenis.Migrations.First.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:apiTenis.Migrations.First.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:apiTenis.Migrations.First.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:apiTenis.Migrations._2">
+            <inheritdoc />
+        </member>
+        <member name="M:apiTenis.Migrations._2.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:apiTenis.Migrations._2.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:apiTenis.Migrations._2.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
